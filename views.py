@@ -3,7 +3,7 @@ from django.http import JsonResponse
 
 
 def index(request):
-    return render(request, 'booktest/index.html', {})
+    return render(request, 'booktest/index.html', {'name': 2})
 
 
 
